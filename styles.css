@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 500px;
+  background-image: url(/pexelsAssets/mountain.jpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  display: flex;
+  background: transparent;
+  padding: 20px 15px;
+}
+
+#right-side {
+  margin-left: 50em;
+}
+
+.right-items {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  color: #239884;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#upload-btn {
+  height: 40px;
+  background-color: #239884;
+  color: white;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+h1 {
+  color: #239884;
+  display: block;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 80px 300px;
+  margin-bottom: 5px;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+#search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#search-bar {
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px 30px;
+}
+
+p {
+  font-size: 14px;
+  color: #239884;
+  text-align: center;
+}
+
+.selector {
+  display: flex;
+  border-bottom: 1px solid grey;
+  justify-content: center;
+}
+
+.tab {
+  margin: 17.5px;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content-body {
+  display: none;
+}
+
+.tab-active {
+  color: #0064f9;
+  border-bottom: 2px solid #0064f9;
+}
+
+#photo-divs {
+  display: flex;
+  max-height: 1500px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#photo-div {
+  max-width: 540px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pexels API</title>
+  </head>
+  <body>
+    <div class="header">
+      <div id="navbar">
+        <div id="logo">
+          <a href="#"> <img height="40px" src="pexelsAssets/logo.png" /></a>
+        </div>
+        <div id="right-side">
+          <a class="right-items" href="#">Explore</a>
+          <a class="right-items" href="#">Licence</a>
+
+          <a href="#">
+            <img
+              class="right-items"
+              height="25px"
+              src="pexelsAssets/notifications.jpg"
+            />
+          </a>
+          <img
+            class="right-items"
+            height="25px"
+            src="pexelsAssets/avatar.jpg"
+          />
+
+          <button type="button" class="right-items" id="upload-btn">
+            Upload
+          </button>
+        </div>
+      </div>
+      <h1>The best free stock photos & videos shared by talented creators.</h1>
+      <form action="/" method="GET" id="search-form">
+        <input
+          id="search-bar"
+          placeholder="Search for free photos and videos"
+          type="search"
+        />
+        <button type="submit" class="search-button">
+          <img src="/pexelsAssets/search.png" />
+        </button>
+      </form>
+      <p>Suggested: river mountain climbing sea city flowers landscape more</p>
+    </div>
+    <div class="container">
+      <div class="selector">
+        <div class="tab tab-active">Home</div>
+        <div class="tab">Discover</div>
+        <div class="tab">Videos</div>
+        <div class="tab">Leaderboard</div>
+        <div class="tab">Challenges</div>
+
+      </div>
+      <div class="tab-content">
+        <div class="content-body show-active" id="Home">
+        </div>
+        <div class="content-body" id="Discover">
+        </div>
+        <div class="content-body" id="Videos">
+                </div>
+        <div class="content-body" id="Leaderboard">
+                </div> 
+       <div class="content-body" id="Challenges">
+                </div>
+      </div>
+    <div id="photo-divs"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
